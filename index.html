@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Site de Clara</title>
+    <meta charset="UTF-8" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <link href="./styles.css" rel="stylesheet" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1"
+    />
+    <script src="./scripts.js"></script>
+  </head>
+  <header>
+    <h1>Clara</h1>
+  </header>
+  <section class="about">
+    <img src="images/profile.jpg" alt="Photo de ..." />
+    <h2>Présentation</h2>
+    <p>
+      Bonjour ! Je suis Clara Charriau,<br />
+      une future UX/UI Designer basée à l'ouest de Paris.<br /><br />
+      En autoformation depuis février 2022,<br />
+      je suis à la recherche d'une alternance pour la rentrée de septembre
+      2022.<br /><br />
+
+      <a href="https://www.linkedin.com/in/claracharriau/" target="_blank"
+        >Retrouvez moi sur LinkedIn !</a
+      >
+    </p>
+  </section>
+
+  <section class="skills">
+    <h2>Compétences</h2>
+
+    <div class="skills-content">
+      <div class="skills-column">
+        <div class="progress-container">
+          <span class="progress-badge">Premiere Pro</span>
+          <div class="progress">
+            <div class="progress-bar" style="width: 85%;"></div>
+            <span class="progress-value">85%</span>
+          </div>
+        </div>
+        <!-- Fin .progress-container -->
+        <div class="progress-container">
+          <span class="progress-badge">Photoshop</span>
+          <div class="progress">
+            <div class="progress-bar" style="width: 60%;"></div>
+            <span class="progress-value">60%</span>
+          </div>
+        </div>
+        <!-- Fin .progress-container -->
+        <div class="progress-container">
+          <span class="progress-badge">InDesign</span>
+          <div class="progress">
+            <div class="progress-bar" style="width: 80%;"></div>
+            <span class="progress-value">80%</span>
+          </div>
+        </div>
+        <!-- Fin .progress-container -->
+      </div>
+      <!-- Fin .skills-column -->
+
+      <div class="skills-column">
+        <div class="progress-container">
+          <span class="progress-badge">Illustrator</span>
+          <div class="progress">
+            <div class="progress-bar" style="width: 70%;"></div>
+            <span class="progress-value">70%</span>
+          </div>
+        </div>
+        <!-- Fin .progress-container -->
+        <div class="progress-container">
+          <span class="progress-badge">Figma</span>
+          <div class="progress">
+            <div class="progress-bar" style="width: 70%;"></div>
+            <span class="progress-value">70%</span>
+          </div>
+        </div>
+        <!-- Fin .progress-container -->
+        <div class="progress-container">
+          <span class="progress-badge">HTML, CSS</span>
+          <div class="progress">
+            <div class="progress-bar" style="width: 30%;"></div>
+            <span class="progress-value">30%</span>
+          </div>
+        </div>
+        <!-- Fin .progress-container -->
+      </div>
+      <!-- Fin .skills-column -->
+    </div>
+    <!-- Fin .skills-content -->
+  </section>
+
+  <section class="timeline">
+    <h2>Expérience</h2>
+    <ul>
+      <!-- Début expérience 1 -->
+      <li>
+        <div class="bubble">
+          <time>Septembre à décembre - 2021</time>
+          <span>Assistante de projet évènementiel dans le cinéma</span>
+          <br />Paris, France
+        </div>
+      </li>
+      <!-- Fin expérience 1 -->
+      <!-- Début expérience 2 -->
+      <li>
+        <div class="bubble">
+          <time>Mars à août - 2021</time>
+          <span>Assistante de Production @ Iota Production</span>
+          <br />Bruxelles, Belgique
+        </div>
+      </li>
+      <!-- Fin expérience 2 -->
+      <!-- Début expérience 3 -->
+      <li>
+        <div class="bubble">
+          <time>2019</time>
+          <span>Community Manager @ Festival Augenblick</span>
+          <br />Strasbourg, France
+        </div>
+      </li>
+      <!-- Fin expérience 3 -->
+      <!-- Début expérience 4 -->
+      <li>
+        <div class="bubble">
+          <time>2015 - 2018</time>
+          <span>Community Manager @ Festival Premiers Plans</span>
+          <br />Angers, France
+        </div>
+      </li>
+      <!-- Fin expérience 4 -->
+    </ul>
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20974.867823853623!2d2.275927046801391!3d48.91808851973396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66f42aca11b2b%3A0x40b82c3688b3ec0!2s92600%20Asni%C3%A8res-sur-Seine!5e0!3m2!1sfr!2sfr!4v1652277573229!5m2!1sfr!2sfr"
+      width="600"
+      height="450"
+      style="border: 0;"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+    <form name="contact" method="POST">
+      <div class="row">
+        <div class="form-group">
+          <label>Nom</label>
+          <input type="text" name="name" placeholder="Votre nom" required />
+        </div>
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" name="email" placeholder="Votre email" required />
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Message</label>
+        <textarea
+          name="message"
+          placeholder="Votre message..."
+          required
+        ></textarea>
+      </div>
+      <button class="btn">Envoyer</button>
+    </form>
+  </section>
+
+  <body></body>
+</html>
